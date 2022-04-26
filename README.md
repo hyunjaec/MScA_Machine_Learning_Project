@@ -11,3 +11,10 @@ True-Benign, (TB): A location that actually has no cancer
 True-Malicious (TM): A location that has real cancer
 False-Benign (FB): A location that has real cancer, but it was removed.
 False-Malicious (FM): A location that does not have cancer, but fake cancer was injected there.
+
+## Attribute Information
+
+Each scan is in the medical dicom format, but it can be loaded as a 3D matrix with Python by using the tools provided in our code repository.
+
+A scan is basically a series of 512x512 images. The series is usually about 100-300 slices long (the z axis). Cancers can occupy multiple slices along the z-axis.
+The value at each pixel is the Hounsfield unit (radiodensity) at that location.
