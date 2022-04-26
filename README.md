@@ -1,6 +1,10 @@
 # MScA_Machine_Learning_Project
 
+
+
 ## Data Description
+
+Link: https://archive.ics.uci.edu/ml/datasets/Deepfakes%3A+Medical+Image+Tamper+Detection#
 
 Attackers have the ability to intercept and add/remove medical evidence in medical imagery with high realism using deep learning. In this dataset we present medical deepfakes: 3D CT scans of human lungs, where some have been tampered with real cancer removed and with fake cancer injected. The objective of this dataset is to distinguish between real and fake cancers, and identify where medical scans have been tampered. Three expert radiologists have evaluated this dataset and could not reliably tell the difference between real and fake cancers, meaning that the fake cancers are realistic and this detection task is very challenging. For more information, please see our paper 'CT-GAN'.
 
